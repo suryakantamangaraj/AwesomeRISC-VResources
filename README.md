@@ -41,31 +41,30 @@
 A curated list of awesome RISC-V open source implementations which will inspire you to make yours.
 
 ### Cores
-- [riscv-boom](https://github.com/riscv-boom/riscv-boom)
-- [Shakti C-Class](https://gitlab.com/shaktiproject/cores/c-class)
-- [Shakti E-Class](https://gitlab.com/shaktiproject/cores/e-class)
-- [Ariane](https://github.com/pulp-platform/ariane)
-- [CV32E40P](https://github.com/openhwgroup/cv32e40p)
-- [FWRISC](https://github.com/mballance/fwrisc)
+- [riscv-boom](https://github.com/riscv-boom/riscv-boom) - The Berkeley Out-of-Order RISC-V Processor
+- [Shakti C-Class](https://gitlab.com/shaktiproject/cores/c-class) - Shakti C-Class Core
+- [Shakti E-Class](https://gitlab.com/shaktiproject/cores/e-class) - Shakti E-Class Core
+- [CVA6](https://github.com/openhwgroup/cva6) - CVA6 RISC-V CPU
+- [CV32E40P](https://github.com/openhwgroup/cv32e40p) - OpenHW Group CORE-V CV32E40P RISC-V IP
+- [FWRISC](https://github.com/mballance/fwrisc) - a Featherweight RISC-V implementation
 - [FWRISC-S](https://github.com/mballance/fwrisc-s)
-- [Ibex](https://github.com/lowRISC/ibex)
-- [Minerva](https://github.com/lambdaconcept/minerva)
-- [PicoRV32](https://github.com/cliffordwolf/picorv32)
+- [Ibex](https://github.com/lowRISC/ibex) - Ibex RISC-V Core
+- [Minerva](https://github.com/lambdaconcept/minerva) - a 32-bit RISC-V soft processor
+- [PicoRV32](https://github.com/cliffordwolf/picorv32) - a Size-Optimized RISC-V CPU
 - [riscv-mini](https://github.com/ucb-bar/riscv-mini)
-- [Rocket](https://github.com/chipsalliance/rocket-chip)
-- [SERV](https://github.com/olofk/serv)
-- [SweRV](https://github.com/chipsalliance/Cores-SweRV)
+- [Rocket](https://github.com/chipsalliance/rocket-chip) - Rocket Chip Generator 🚀
+- [SERV](https://github.com/olofk/serv) - SERV is an award-winning bit-serial RISC-V core
+- [SweRV](https://github.com/chipsalliance/Cores-SweRV) - EH1 SweRV RISC-V CoreTM 1.8 from Western Digital
 - [VexRiscv](https://github.com/SpinalHDL/VexRiscv)
-- [Super Scalar](https://github.com/risclite/SuperScalar-RISCV-CPU)
-- [Leros](https://github.com/leros-dev/leros)
-- [patmos](https://github.com/t-crest/patmos)
-- [lipsi](https://github.com/schoeberl/lipsi)
-- [DANA](https://github.com/bu-icsg/dana)
+- [SSRV](https://github.com/risclite/SuperScalar-RISCV-CPU) - SuperScalar-RISCV-CPU
+- [Leros](https://github.com/leros-dev/leros) - a Tiny Processor Core
+- [patmos](https://github.com/t-crest/patmos) - a time-predictable VLIW processor
+- [lipsi](https://github.com/schoeberl/lipsi) - Lipsi: Probably the Smallest Processor in the World
+- [DANA](https://github.com/bu-icsg/dana) - Dynamically Allocated Neural Network (DANA) Accelerator
 - [Sodor](https://github.com/ucb-bar/riscv-sodor)
-- [Taiga](https://gitlab.com/sfu-rcl/Taiga)
-- [SweRV from WD](https://github.com/westerndigitalcorporation/swerv_eh1_fpga)
-- [Reindeer](https://github.com/PulseRain/Reindeer)
-- [Rattlesnake](https://github.com/PulseRain/Rattlesnake)
+- [Taiga](https://gitlab.com/sfu-rcl/Taiga) - Taiga is a 32-bit RISC-V processor 
+- [Reindeer](https://github.com/PulseRain/Reindeer) - PulseRain Reindeer - RISCV RV32I[M] Soft CPU
+- [Rattlesnake](https://github.com/PulseRain/Rattlesnake) - RISC-V RV32IMC Soft CPU, with a Security-Hardened Processor Core
 
 ### SoCs
 -[Shakti SoC](https://gitlab.com/shaktiproject/cores/shakti-soc)
@@ -73,6 +72,8 @@ A curated list of awesome RISC-V open source implementations which will inspire 
 
 ### Deprecated
 - [zscale](https://github.com/ucb-bar/zscale)
+- [Ariane](https://github.com/pulp-platform/ariane)
+- [SweRV from WD](https://github.com/westerndigitalcorporation/swerv_eh1_fpga) - FPGA Reference Design for the SweRV RISC-V CoreTM from Western Digital
 
 ## Toolchains
 
@@ -85,15 +86,15 @@ A curated list of awesome RISC-V open source implementations which will inspire 
 - [TLBSim](https://github.com/nbdd0121/TLBSim) - Fast TLB simulator for RISC-V systems
 
 ### Design Environment
-- [Treadle](https://github.com/freechipsproject/treadle)
-- [Firrtl](https://github.com/freechipsproject/firrtl)
+- [Treadle](https://github.com/freechipsproject/treadle) - A Chisel/Firrtl Execution Engine
+- [Firrtl](https://github.com/freechipsproject/firrtl) - Flexible Internal Representation for RTL
 
 
 ### Testing Environment
 -[CHISEL Tester](https://github.com/freechipsproject/chisel-testers)
 
 ### Others
-- [Rocket Chip Generator](https://github.com/chipsalliance/rocket-chip)
+
 
 
 ## Resources
