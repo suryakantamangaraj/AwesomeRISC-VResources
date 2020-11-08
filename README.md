@@ -54,6 +54,8 @@ A curated list of awesome RISC-V open source implementations which will inspire 
 
 ### Cores
 
+A curated list of RISC-V Cores, available as open source with proper documentations.
+
 - [bigPULP](https://github.com/pulp-platform/bigpulp)
 - [biRISC-V](https://github.com/ultraembedded/biriscv) - biRISC-V - 32-bit dual issue RISC-V CPU
 - [BOOM](https://github.com/riscv-boom/riscv-boom) - The Berkeley Out-of-Order RISC-V Processor
@@ -115,6 +117,8 @@ A curated list of awesome RISC-V open source implementations which will inspire 
 
 ### SoCs
 
+A curated list of RISC-V SoCs, available as open sources.
+
 - [Icicle](https://github.com/grahamedgecombe/icicle) - a 32-bit RISC-V system on chip for iCE40 HX8K, iCE40 UP5K and ECP5 FPGAs
 - [Iob-SoC](https://github.com/IObundle/iob-soc)
 - [PicoSoC](https://github.com/cliffordwolf/picorv32/tree/master/picosoc) - A simple example SoC using PicoRV32
@@ -137,11 +141,15 @@ A curated list of awesome RISC-V open source implementations which will inspire 
 
 ## Open Source Toolchains
 
+A curated list of open source toolchains which will halp to make your own design.
+
 ### HDLs
 
 - [CHISEL](https://github.com/freechipsproject/chisel3)
 
 ### Simulators/Emulators
+
+A curated list of open source Emulators/Simulators to design and test your RISC-V related work.
 
 - [Spike](https://github.com/riscv/riscv-isa-sim/) - RISC-V ISA Simulator
 - [Verilator](https://github.com/verilator/verilator) - The fastest Verilog/SystemVerilog simulator
@@ -186,6 +194,8 @@ A curated list of awesome RISC-V open source implementations which will inspire 
 - [BRSIC-V](https://ascslab.org/research/briscv/explorer/explorer.html)
 
 ## Technical Resources
+
+Resources to help you make your own designs.
 
 ### Books
 
@@ -311,6 +321,8 @@ A curated list of awesome RISC-V open source implementations which will inspire 
 
 ## Social Media
 
+These socila media profiles will update about recent RISC-V related news.
+
 ### Forums
 
 - [RISC-V official forum](https://riscv.org/technical/technical-forums/)
@@ -341,6 +353,3 @@ Please read the [contribution guidelines](Contributing.md) first.
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, [Surya Raj](https://suryaraj.me) has waived all copyright and related or neighboring rights to this work.
-
-
-
