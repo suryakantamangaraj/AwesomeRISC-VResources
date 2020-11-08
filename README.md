@@ -321,7 +321,7 @@ Resources to help you make your own designs.
 
 ## Social Media
 
-These socila media profiles will update about recent RISC-V related news.
+These social media profiles will update about recent RISC-V related news.
 
 ### Forums
 
