@@ -15,6 +15,7 @@
 <a href="https://github.com/suryakantamangaraj/AwesomeRISC-VResources/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/suryakantamangaraj/AwesomeRISC-VResources?color=2b9348"></a>
 
 <i>Loved the project? Please support it to improve!</i>
+<iframe src="https://github.com/sponsors/suryakantamangaraj/card" title="Sponsor suryakantamangaraj" height="225" width="600" style="border: 0;"></iframe>
 
 </div>
 
