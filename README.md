@@ -163,7 +163,8 @@ A curated list of open source Emulators/Simulators to design and test your RISC-
 - [SweRV ISS](https://github.com/westerndigitalcorporation/swerv-ISS)
 - [GAP8 SDK](https://github.com/GreenWaves-Technologies/gap_sdk)
 - [Shakti SDK](https://gitlab.com/shaktiproject/software/shakti-sdk)
-- [FuseSoC](https://github.com/olofk/fusesoc) - FuseSoC is an award-winning package manager and a set of build tools for HDL 
+- [FuseSoC](https://github.com/olofk/fusesoc) - FuseSoC is an award-winning package manager and a set of build tools for HDL
+- [riscv-python](https://github.com/ccattuto/riscv-python/) - A pure Python RISC-V emulator
 - [riscv-VM](https://github.com/openhwgroup/riscv_vm) - OpenHW Group's RISC-V Virtual Machine
 - [TinyEMU](https://bellard.org/tinyemu/) - a system emulator for the RISC-V and x86 architectures
 - [RARS](https://github.com/TheThirdOne/rars) - RISC-V Assembler and Runtime Simulator
@@ -355,3 +356,4 @@ Please read the [contribution guidelines](Contributing.md) first.
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, [Surya Raj](https://suryaraj.me) has waived all copyright and related or neighboring rights to this work.
+
