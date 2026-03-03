@@ -43,6 +43,8 @@
   - [Reddit](#reddit)
   - [Telegram](#telegram)
 - [Contribute](#contribute)
+- [Support This Project](#support-this-project)
+- [Credits](#credits)
 - [License](#license)
 
 ## Open Source Implementations
@@ -368,6 +370,19 @@ This list is free, open, and maintained entirely in spare time. If it has saved 
 [![Sponsor on GitHub](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86&style=for-the-badge)](https://github.com/sponsors/suryakantamangaraj)
 
 *Every sponsor helps keep this list accurate, up-to-date, and free for everyone.*
+
+</div>
+
+## Credits
+
+<div align="center">
+
+Created and maintained by [Surya Raj](https://suryaraj.com).
+
+Special thanks to every [contributor](https://github.com/suryakantamangaraj/AwesomeRISC-VResources/graphs/contributors) who has submitted a resource, reported a dead link, or improved the list — this project is yours as much as it is mine.
+
+List structure inspired by [sindresorhus/awesome](https://github.com/sindresorhus/awesome).
+RISC-V® is a registered trademark of [RISC-V International](https://riscv.org).
 
 </div>
 
