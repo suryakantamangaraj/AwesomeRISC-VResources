@@ -353,9 +353,9 @@ These social media profiles will update about recent RISC-V related news.
 
 ## Support This Project
 
-<div align="center">
-
 This list is free, open, and maintained entirely in spare time. If it has saved you hours of research, helped you pick the right core, or made RISC-V more accessible for you or your students, consider supporting its continued curation.
+
+<div align="center">
 
 [![Sponsor on GitHub](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86&style=for-the-badge)](https://github.com/sponsors/suryakantamangaraj)
 
@@ -365,20 +365,16 @@ This list is free, open, and maintained entirely in spare time. If it has saved 
 
 ## Credits
 
-<div align="center">
-
 Created and maintained by Surya Raj ([suryaraj.com](https://suryaraj.com)).
 
-Special thanks to every contributor who has submitted a resource, reported a dead link, or improved the list — this project is yours as much as it is mine.
+Special thanks to every contributor who has submitted a resource, reported a dead link, or improved the list, this project is yours as much as it is mine.
 
 List structure inspired by the sindresorhus/awesome project.
 RISC-V® is a registered trademark of [RISC-V International](https://riscv.org).
 
-</div>
-
 ## Contribute
 
-This list grows with the community. Whether you've found a new open-source core, a great course, or a tool that made your RISC-V workflow significantly better — your contribution is welcome here.
+This list grows with the community. Whether you've found a new open-source core, a great course, or a tool that made your RISC-V workflow significantly better, your contribution is welcome here.
 
 Please read the **[Contribution Guidelines](Contributing.md)** before opening a pull request. We follow the sindresorhus/awesome standard: every entry must have a description, a live `https://` link, and be actively maintained.
 
