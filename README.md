@@ -1,25 +1,19 @@
+<div align="center">
+
 # Awesome RISC-V Resources
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License](https://img.shields.io/github/license/suryakantamangaraj/AwesomeRISC-VResources?color=brightgreen)](https://github.com/suryakantamangaraj/AwesomeRISC-VResources/blob/master/LICENSE)
+[![Stars](https://img.shields.io/github/stars/suryakantamangaraj/AwesomeRISC-VResources)](https://github.com/suryakantamangaraj/AwesomeRISC-VResources/stargazers)
+[![Contributors](https://img.shields.io/github/contributors/suryakantamangaraj/AwesomeRISC-VResources?color=2b9348)](https://github.com/suryakantamangaraj/AwesomeRISC-VResources/graphs/contributors)
+[![Pull Requests](https://img.shields.io/github/issues-pr/suryakantamangaraj/AwesomeRISC-VResources)](https://github.com/suryakantamangaraj/AwesomeRISC-VResources/pulls)
+[![Issues](https://img.shields.io/github/issues/suryakantamangaraj/AwesomeRISC-VResources)](https://github.com/suryakantamangaraj/AwesomeRISC-VResources/issues)
 
-A curated list of awesome RISC-V resources.
-# Awesome RISC-V Resources
+**A curated, community-maintained list of high-quality RISC-V resources — open-source cores, simulators, toolchains, development boards, textbooks, courses, and research papers — for engineers, students, and researchers building on the open RISC-V ISA.**
 
-<img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
-<a href="https://github.com/suryakantamangaraj/AwesomeRISC-VResources/blob/master/LICENSE"><img src="https://img.shields.io/github/license/suryakantamangaraj/AwesomeRISC-VResources?color=brightgreen" alt="License Badge"/></a>
-</a><br>
+</div>
 
-<i>Hopefully this repo can serve as a source of inspiration for your RISC-V related projects!</i>
-
-<a href="https://github.com/suryakantamangaraj/AwesomeRISC-VResources/stargazers"><img src="https://img.shields.io/github/stars/suryakantamangaraj/AwesomeRISC-VResources" alt="Stars Badge"/></a>
-<a href="https://github.com/suryakantamangaraj/AwesomeRISC-VResources/pulls"><img src="https://img.shields.io/github/issues-pr/suryakantamangaraj/AwesomeRISC-VResources" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/suryakantamangaraj/AwesomeRISC-VResources/issues"><img src="https://img.shields.io/github/issues/suryakantamangaraj/AwesomeRISC-VResources" alt="Issues Badge"/></a>
-<a href="https://github.com/suryakantamangaraj/AwesomeRISC-VResources/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/suryakantamangaraj/AwesomeRISC-VResources?color=2b9348"></a>
-
-<i>Loved the project? Please support it to improve!</i>
-
-[![Sponsor @suryakantamangaraj](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/suryakantamangaraj)
-
-#
+---
 
 ### Contents
 
@@ -359,11 +353,32 @@ These social media profiles will update about recent RISC-V related news.
 
 ## Contribute
 
-Contributions are welcome!
-Please read the [contribution guidelines](Contributing.md) first.
+This list grows with the community. Whether you've found a new open-source core, a great course, or a tool that made your RISC-V workflow significantly better — your contribution is welcome here.
+
+Please read the **[Contribution Guidelines](Contributing.md)** before opening a pull request. We follow the [sindresorhus/awesome](https://github.com/sindresorhus/awesome) standard: every entry must have a description, a live `https://` link, and be actively maintained.
+
+> Found a dead link or an outdated resource? Open an [issue](https://github.com/suryakantamangaraj/AwesomeRISC-VResources/issues) — that's a contribution too! ✨
+
+## Support This Project
+
+<div align="center">
+
+This list is free, open, and maintained entirely in spare time. If it has saved you hours of research, helped you pick the right core, or made RISC-V more accessible for you or your students, consider supporting its continued curation.
+
+[![Sponsor on GitHub](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86&style=for-the-badge)](https://github.com/sponsors/suryakantamangaraj)
+
+*Every sponsor helps keep this list accurate, up-to-date, and free for everyone.*
+
+</div>
 
 ## License
+
+<div align="center">
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, [Surya Raj](https://suryaraj.com) has waived all copyright and related or neighboring rights to this work.
+
+*You are free to copy, modify, and distribute this list — no permission required.*
+
+</div>

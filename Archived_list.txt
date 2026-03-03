@@ -1,0 +1,96 @@
+Archived Resources
+==================
+
+This file is intentionally kept as plain text (not Markdown) so that
+automated link-checkers (e.g. awesome-lint) do not scan it.
+
+These resources were found in earlier versions of this repository but have
+been removed from README.md for one or more of the following reasons:
+  - The URL is no longer reachable (404 / domain lapsed).
+  - The content is outdated and has not been updated in several years.
+  - A superior, actively maintained alternative exists in the main list.
+
+They are preserved here purely for historical reference and to avoid
+re-adding dead or redundant links during future contributions.
+
+--------------------------------------------------------------------------------
+
+[Starsea RISC-V Core]
+URL  : https://github.com/haogwb/starsea_riscv
+Note : Minimalist single-cycle RV32I core written in Verilog.
+       Repository appears inactive; no releases or recent commits.
+
+[VLSI Systems Design — UC Berkeley CS250, Spring 2017]
+URL  : https://www-inst.eecs.berkeley.edu//~cs250/sp17/
+Note : Graduate course slides covering custom VLSI SoC design flows used at
+       Berkeley, including early Rocket Chip labs. Course materials are no
+       longer publicly accessible at this URL.
+
+[Creating a Custom Processor with RISC-V — EDN Article]
+URL  : https://www.edn.com/creating-a-custom-processor-with-risc-v/
+Note : Introductory industry article (EDN, ~2018) explaining how to customise
+       a RISC-V pipeline for domain-specific workloads.
+       Page may redirect or return 404 depending on EDN's current CDN state.
+
+[RISC-V Offers Simple, Modular ISA — riscv.org Blog Post, 2016]
+URL  : https://riscv.org/2016/04/risc-v-offers-simple-modular-isa/
+Note : Foundational early blog post from the RISC-V Foundation explaining the
+       modular extension philosophy. Superseded by the official ISA manual.
+       URL returns 404 as the blog was restructured.
+
+[GRVI Phalanx: A Massively Parallel RISC-V FPGA Accelerator — arXiv 2016]
+URL  : https://arxiv.org/ftp/arxiv/papers/1606/1606.01037.pdf
+Note : Research paper demonstrating a RISC-V soft-core array on FPGAs for
+       parallel workloads. The FTP-style arXiv PDF path is no longer stable;
+       use https://arxiv.org/abs/1606.01037 to access via the abstract page.
+
+[Measuring the Gap between Programmable and Fixed-Function Accelerators —
+ HotChips 25 Poster, UC Berkeley]
+URL  : http://www.hotchips.org/wp-content/uploads/hc_archives/hc25/HC25-posters/HC25.26.p60-Accelerating-Speech-Lee-UCB.pdf
+Note : Poster paper comparing a programmable RISC-V HWACHA vector core against
+       fixed-function ASICs for speech recognition DNN inference.
+       URL uses HTTP and the HotChips archive CDN is unreliable; file returns
+       404 intermittently.
+
+[Linux on RISC-V — FORTH ICS Getting Started Guide]
+URL  : https://riscv.ics.forth.gr/doku.php/developers/getting_started
+Note : Developer guide from the Foundation for Research and Technology Hellas
+       (FORTH) covering cross-compilation and Linux boot on RISC-V boards.
+       Domain is no longer reachable.
+
+[HWPE: A CNN Accelerator for RISC-V — RISC-V Shanghai Workshop 2018]
+URL  : https://riscv.org//wp-content/uploads/2018/07/Shanghai-1135_HWPE-A-CNN-accelerator-for-RISC-V.pdf
+Note : Slide deck introducing the Hardware Processing Engine (HWPE) tightly
+       coupled to the PULP platform's RISC-V cores for CNN inference.
+       PDF link returns 404 after riscv.org restructure.
+
+[Tutorial on RISC-V Design and Verification — DVCon Europe 2018]
+URL  : http://events.dvcon.org/Europe/2018/proceedings/slides/07T.pdf
+Note : Conference tutorial covering RTL design and UVM verification methodology
+       for RISC-V processor cores. HTTP only; DVCon archive URL is broken.
+
+[Chisel – Accelerating Hardware Design — RISC-V Bootcamp Slides, Jan 2015]
+URL  : https://riscv.org/wp-content/uploads/2015/01/riscv-chisel-tutorial-bootcamp-jan2015.pdf
+Note : Early tutorial slides introducing the Chisel HDL in the context of the
+       first public RISC-V workshop. Content is heavily outdated (Chisel 2).
+       Superseded by the Chisel Bootcamp notebook at
+       https://github.com/freechipsproject/chisel-bootcamp (already in README).
+
+[Methodology for Implementation of Custom Instructions in RISC-V — Imperas
+ EW 2019 Slides]
+URL  : https://riscv.org/wp-content/uploads/2019/02/Imperas-EW-2019-Custom-Instructions-booth-slides-KM.pdf
+Note : Vendor slide deck (Imperas Software) on extending the RISC-V ISA with
+       custom opcodes and verifying them with OVPsim. PDF returns 404.
+
+[Introduction to Chisel for Beginners]
+URL  : https://github.com/IAMAl/How2Start_Chisel3
+Note : Introductory Chisel 3 tutorial repository aimed at absolute beginners.
+       Repository has been inactive for several years and predates Chisel 3.6+
+       breaking changes; may contain outdated API usage.
+
+[The RISC-V Instruction Set — HotChips 25 Poster, UC Berkeley]
+URL  : http://www.hotchips.org/wp-content/uploads/hc_archives/hc25/HC25-posters/HC25.26.p70-RISC-V-Warterman-UCB.pdf
+Note : Original HotChips poster by Andrew Waterman introducing the RISC-V ISA
+       to the wider microarchitecture community. HTTP only; URL is broken.
+       The canonical reference is now the official ISA manual at
+       https://github.com/riscv/riscv-isa-manual (already in README).
