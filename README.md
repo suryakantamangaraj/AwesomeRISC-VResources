@@ -2,6 +2,8 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of awesome RISC-V resources.
+# Awesome RISC-V Resources
+
 <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
 <a href="https://github.com/suryakantamangaraj/AwesomeRISC-VResources/blob/master/LICENSE"><img src="https://img.shields.io/github/license/suryakantamangaraj/AwesomeRISC-VResources?color=brightgreen" alt="License Badge"/></a>
 </a><br>
