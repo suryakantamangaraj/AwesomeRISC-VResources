@@ -116,6 +116,7 @@ A curated list of RISC-V Cores, available as open source with proper documentati
 - [VexRiscv](https://github.com/SpinalHDL/VexRiscv)
 - [WARP-V](https://github.com/stevehoover/warp-v) - The open-source RISC-V core IP you can shape to your needs!
 - [FlexPRET](https://github.com/pretis/flexpret) - a 5-stage, fine-grained multithreaded RISC-V* processor
+- [phoeniX](https://github.com/phoeniX-Digital-Design/phoeniX) - A Reconfigurable RISC-V Core for Approximate Computing and Fault-Tolerant Applications
 
 ### SoCs
 
@@ -293,6 +294,8 @@ Resources to help you make your own designs.
 - [Tuning Algorithms and Generators for Efficient Edge Inference](https://arxiv.org/abs/1908.02239)
 - [Using FireSim to Enable Agile End-to-End RISC-V ComputerArchitecture Research](https://people.eecs.berkeley.edu/~alonamid/papers/carrv2019-firesim_agile.pdf)
 - [Variable Precision Floating-Point RISC-V Coprocessor Evaluation using Lightweight Software and Compiler Support](https://www.researchgate.net/publication/336778311_Variable_Precision_Floating-Point_RISC-V_Coprocessor_Evaluation_using_Lightweight_Software_and_Compiler_Support)
+- [A Reconfigurable Approximate Computing RISC-V Platform for Fault-Tolerant Applications](https://ieeexplore.ieee.org/document/10741850)
+- [Evaluation of Run-Time Energy Efficiency Using Controlled Approximation in a RISC-V Core](https://ieeexplore.ieee.org/document/10824628)
 
 ### Uncategorized
 
