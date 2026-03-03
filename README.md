@@ -5,7 +5,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![License](https://img.shields.io/github/license/suryakantamangaraj/AwesomeRISC-VResources?color=brightgreen)
 ![Stars](https://img.shields.io/github/stars/suryakantamangaraj/AwesomeRISC-VResources)
-[![Contributors](https://img.shields.io/github/contributors/suryakantamangaraj/AwesomeRISC-VResources?color=2b9348)](https://github.com/suryakantamangaraj/AwesomeRISC-VResources/graphs/contributors)
+![Contributors](https://img.shields.io/github/contributors/suryakantamangaraj/AwesomeRISC-VResources?color=2b9348)
 ![Pull Requests](https://img.shields.io/github/issues-pr/suryakantamangaraj/AwesomeRISC-VResources)
 ![Issues](https://img.shields.io/github/issues/suryakantamangaraj/AwesomeRISC-VResources)
 
