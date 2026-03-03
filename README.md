@@ -34,6 +34,8 @@ A curated list of awesome RISC-V resources.
   - [Design Environment](#design-environment)
   - [Verification and Testing Environment](#verification-and-testing-environment)
   - [Uncategorized](#uncategorized-1)
+- [Hardware](#hardware)
+  - [Educational Boards](#educational-boards)
 - [Technical Resources](#technical-resources)
   - [Books](#books)
   - [Videos](#videos)
@@ -112,8 +114,11 @@ A curated list of RISC-V Cores, available as open source with proper documentati
 - [SweRV EL2](https://github.com/chipsalliance/Cores-SweRV-EL2) - EL2 SweRV RISC-V CoreTM 1.2 from Western Digital.
 - [Taiga](https://gitlab.com/sfu-rcl/Taiga) - Taiga is a 32-bit RISC-V processor.
 - [Tiny Risc-V](https://github.com/liangkangnan/tinyriscv)
+- [VeeR EL2](https://github.com/chipsalliance/Cores-VeeR-EL2) - CHIPS Alliance VeeR EL2 RISC-V Core; the actively maintained successor to the Western Digital SweRV family.
 - [VexRiscv](https://github.com/SpinalHDL/VexRiscv)
+- [Wally (CVW)](https://github.com/openhwgroup/cvw) - CORE-V Wally: a configurable, 5-stage-pipeline RISC-V processor associated with the *RISC-V System-on-Chip Design* textbook by Harris et al.
 - [WARP-V](https://github.com/stevehoover/warp-v) - Open-source RISC-V core IP you can shape to your needs!.
+- [XiangShan](https://github.com/OpenXiangShan/XiangShan) - Open-source high-performance out-of-order RISC-V processor developed at the Institute of Computing Technology, Chinese Academy of Sciences.
 
 ### Deprecated
 
@@ -168,7 +173,10 @@ A curated list of open source Emulators/Simulators to design and test your RISC-
 - [FireSim-NVDLA](https://github.com/CSL-KU/firesim-nvdla) - Full-system simulator integrated with NVIDIA Deep Learning Accelerator (NVDLA).
 - [FuseSoC](https://github.com/olofk/fusesoc) - FuseSoC is an award-winning package manager and a set of build tools for HDL.
 - [GAP8 SDK](https://github.com/GreenWaves-Technologies/gap_sdk)
+- [gem5](https://github.com/gem5/gem5) - The gem5 computer-system architecture simulator; widely used in academia for RISC-V microarchitecture research.
+- [QEMU](https://github.com/qemu/qemu) - The leading open-source machine emulator and virtualizer; supports both RV32 and RV64 system and user-mode emulation.
 - [RARS](https://github.com/TheThirdOne/rars) - RISC-V Assembler and Runtime Simulator.
+- [Renode](https://github.com/renode/renode) - Antmicro's open-source simulation framework with excellent RISC-V support; ideal for embedded and multi-core prototyping.
 - [Ripes](https://github.com/mortbopet/Ripes) - Visual computer architecture simulator and assembly code editor.
 - [riscv-VM](https://github.com/openhwgroup/riscv_vm) - OpenHW Group's RISC-V Virtual Machine.
 - [Shakti SDK](https://gitlab.com/shaktiproject/software/shakti-sdk)
@@ -176,6 +184,7 @@ A curated list of open source Emulators/Simulators to design and test your RISC-
 - [SweRV ISS](https://github.com/westerndigitalcorporation/swerv-ISS)
 - [TinyEMU](https://bellard.org/tinyemu/) - System emulator for the RISC-V and x86 architectures.
 - [TLBSim](https://github.com/nbdd0121/TLBSim) - Fast TLB simulator for RISC-V systems.
+- [Venus](https://venus.cs61c.org/) - Browser-based RV32 assembler and runtime simulator used in UC Berkeley's CS 61C course; ideal for beginners.
 - [Verilator](https://github.com/verilator/verilator) - Fastest Verilog/SystemVerilog simulator.
 
 ### Uncategorized
@@ -192,6 +201,18 @@ A curated list of open source Emulators/Simulators to design and test your RISC-
 - [RISC-V Formal](https://github.com/SymbioticEDA/riscv-formal) - RISC-V Formal Verification Framework.
 - [RISC-V Tests](https://github.com/riscv/riscv-tests) - Unit tests for RISC-V processors.
 - [RISC-V Torture](https://github.com/ucb-bar/riscv-torture) - RISC-V Torture Test Generator.
+
+## Hardware
+
+Physical boards and platforms for hands-on RISC-V experimentation.
+
+### Educational Boards
+
+Affordable and accessible RISC-V development boards recommended for students and researchers.
+
+- [HiFive1 Rev B](https://www.sifive.com/boards/hifive1-rev-b) - SiFive's Arduino-compatible RISC-V microcontroller board; an accessible entry point for bare-metal embedded programming.
+- [Milk-V Duo](https://milkv.io/duo) - Extremely low-cost ($5–$9) ultra-compact embedded Linux board based on a RISC-V + ARM dual-core SoC; great for IoT learning.
+- [StarFive VisionFive 2](https://www.starfivetech.com/en/site/boards) - Affordable quad-core 64-bit RISC-V SBC (JH7110) with GPU, dual GbE, HDMI 2.0, and M.2 NVMe; runs Debian/Ubuntu; recommended for full Linux RISC-V experience.
 
 ## Technical Resources
 
@@ -210,15 +231,20 @@ Resources to help you make your own designs.
 ### Books
 
 - [Digital Design with Chisel](https://github.com/schoeberl/chisel-book) - Or, [PDF](https://raw.githubusercontent.com/wiki/schoeberl/chisel-book/chisel-book.pdf).
+- [RISC-V Assembly Language Programming](https://github.com/johnwinans/rvalp) - Free, open-source textbook (with PDF releases) covering RV32I assembly from first principles; actively maintained by John Winans.
+- [RISC-V ISA Specification Manual](https://github.com/riscv/riscv-isa-manual) - The official, open-source RISC-V Instruction Set Manual (Volumes I & II); the definitive reference for the unprivileged and privileged ISA.
+- [The RISC-V Reader: An Open Architecture Atlas](http://www.riscvbook.com/) - Concise introductory reference to the RISC-V ISA by Patterson & Waterman; free digital edition available.
 
 ### Courses
 
+- [Building a RISC-V CPU Core (LFD111x)](https://www.edx.org/learn/computer-programming/the-linux-foundation-building-a-risc-v-cpu-core) - Free Linux Foundation course on edX covering hands-on CPU microarchitecture design using open-source tools (TL-Verilog / Makerchip).
 - [Complex Digital Systems](http://csg.csail.mit.edu/6.375/6_375_2016_www/handouts.html) - By MIT.
 - [Computer Architecture - Spring 2018](https://ascslab.org/courses/ec513/index.html) - By Boston University.
 - [Computer Architecture, Summer 2017](https://passlab.github.io/CSE564/) - By Oakland University.
 - [Computer Organization - Fall 2019](https://ascslab.org/courses/ec413/lectures.html) - By Boston University.
 - [Computer Organization II](https://www.cs.fsu.edu/~zwang/cda3101.html) - By Florida State University.
 - [Debugging & Verifying Programs](https://www.cs.utexas.edu/users/hunt/class/2019-spring/cs340d/cs340d.html) - By University of Texas.
+- [Introduction to RISC-V (LFD110x)](https://www.edx.org/learn/computer-programming/the-linux-foundation-introduction-to-risc-v) - Free Linux Foundation course on edX; covers the RISC-V ISA, specifications, and ecosystem; ideal starting point for students.
 - [Organization of Digital Computers Laboratory](https://canvas.eee.uci.edu/courses/7673/assignments/syllabus) - By UC Irvine.
 - [RISC-V ISA using Chisel](http://pages.cs.wisc.edu/~karu/courses/cs752/fall2016/wiki/index.php?n=Main.Project) - By University of Wisconsin–Madison.
 
