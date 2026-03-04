@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Curated resources for the free and open RISC-V instruction set architecture — cores, toolchains, simulators, boards, courses, and research.
+> Curated resources for the free and open RISC-V instruction set architecture - cores, toolchains, simulators, boards, courses, and research.
 
 ---
 
