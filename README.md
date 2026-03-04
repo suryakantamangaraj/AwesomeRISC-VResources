@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-**A curated, community-maintained list of high-quality RISC-V resources — open-source cores, simulators, toolchains, development boards, textbooks, courses, and research papers — for engineers, students, and researchers building on the open RISC-V ISA.**
+> Curated resources for the free and open RISC-V instruction set architecture — cores, toolchains, simulators, boards, courses, and research.
 
 ---
 
