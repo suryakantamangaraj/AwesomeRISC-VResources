@@ -101,6 +101,7 @@ A curated list of RISC-V Cores, available as open source with proper documentati
 - [Wally (CVW)](https://github.com/openhwgroup/cvw) - CORE-V Wally: a configurable, 5-stage-pipeline RISC-V processor associated with the *RISC-V System-on-Chip Design* textbook by Harris et al.
 - [WARP-V](https://github.com/stevehoover/warp-v) - Open-source RISC-V core IP you can shape to your needs.
 - [XiangShan](https://github.com/OpenXiangShan/XiangShan) - Open-source high-performance out-of-order RISC-V processor developed at the Institute of Computing Technology, Chinese Academy of Sciences.
+- [RISCV-CPU](https://github.com/gws8820/RISCV-CPU) - A 6-stage pipelined RV32IM core on FPGA, achieving 263.7 CoreMark and 91.0 DMIPS at 100 MHz.
 
 ### SoCs
 
