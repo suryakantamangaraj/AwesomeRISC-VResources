@@ -1,8 +1,6 @@
-# Awesome RISC-V Resources
+# Awesome RISC-V [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
-> Curated resources for the free and open RISC-V instruction set architecture - cores, toolchains, simulators, boards, courses, and research.
+> RISC-V is a popular architecture for microcontrollers and embedded systems.
 
 ---
 
@@ -188,7 +186,6 @@ Affordable and accessible RISC-V development boards recommended for students and
 
 - [HiFive1 Rev B](https://www.sifive.com/boards/hifive1-rev-b) - SiFive's Arduino-compatible RISC-V microcontroller board; an accessible entry point for bare-metal embedded programming.
 - [Milk-V Duo](https://milkv.io/duo) - Extremely low-cost ($5–$9) ultra-compact embedded Linux board based on a RISC-V + ARM dual-core SoC; great for IoT learning.
-- [StarFive VisionFive 2](https://www.starfivetech.com/en/site/boards) - Affordable quad-core 64-bit RISC-V SBC (JH7110) with GPU, dual GbE, HDMI 2.0, and M.2 NVMe; runs Debian/Ubuntu; recommended for full Linux RISC-V experience.
 
 ## Technical Resources
 
@@ -199,7 +196,7 @@ Resources to help you make your own designs.
 - [2019 : A year of RISC-V and Open source silicon](https://www.linkedin.com/pulse/2019-year-risc-v-open-source-silicon-olof-kindgren/) - Year-in-review article covering the biggest RISC-V open-source silicon milestones of 2019.
 - [Learn with Shakti](https://shakti.org.in/learn_with_shakti/intro.html) - Introductory learning resource for the Shakti RISC-V processor from IIT Madras.
 - [Making a real processor step by step using RISC-V ISA](https://dl.acm.org/doi/10.1145/3210713.3210741) - ACM paper walking through a step-by-step processor implementation using the RISC-V ISA.
-- [Research](https://www.ocf.berkeley.edu/~qmn/research.html) - Research page on RISC-V-related work from UC Berkeley.
+- [Research](https://www.ocf.berkeley.edu/~qmn/research.html) - Page on RISC-V-related work from UC Berkeley.
 - [RISC-V Bases and Extensions Explained](https://www.cnx-software.com/2019/08/27/risc-v-bases-and-extensions-explained/) - Accessible overview of the RISC-V base ISA and its standard extensions.
 - [RISC-V RV32I assembly with Ripes simulator](https://dantalion.nl/en/risc-v-rv32i-assembly-with-ripes-simulator/) - Tutorial on writing and visualizing RV32I assembly using the Ripes simulator.
 - [Sail](https://www.cl.cam.ac.uk/~pes20/sail/) - Research page for the Sail ISA specification language used to formally describe RISC-V.
@@ -209,20 +206,15 @@ Resources to help you make your own designs.
 - [Digital Design with Chisel](https://github.com/schoeberl/chisel-book) - Open-source textbook on hardware design using Chisel, with free PDF available.
 - [RISC-V Assembly Language Programming](https://github.com/johnwinans/rvalp) - Free, open-source textbook (with PDF releases) covering RV32I assembly from first principles; actively maintained by John Winans.
 - [RISC-V ISA Specification Manual](https://github.com/riscv/riscv-isa-manual) - The official, open-source RISC-V Instruction Set Manual (Volumes I & II); the definitive reference for the unprivileged and privileged ISA.
-- [The RISC-V Reader: An Open Architecture Atlas](https://www.riscvbook.com/) - Concise introductory reference to the RISC-V ISA by Patterson & Waterman; free digital edition available.
 
 ### Courses
 
 - [Building a RISC-V CPU Core (LFD111x)](https://www.edx.org/learn/computer-programming/the-linux-foundation-building-a-risc-v-cpu-core) - Free Linux Foundation course on edX covering hands-on CPU microarchitecture design using open-source tools (TL-Verilog / Makerchip).
 - [Complex Digital Systems](https://csg.csail.mit.edu/6.375/6_375_2016_www/handouts.html) - By MIT.
-- [Computer Architecture - Spring 2018](https://ascslab.org/courses/ec513/index.html) - By Boston University.
 - [Computer Architecture, Summer 2017](https://passlab.github.io/CSE564/) - By Oakland University.
-- [Computer Organization - Fall 2019](https://ascslab.org/courses/ec413/lectures.html) - By Boston University.
-- [Computer Organization II](https://www.cs.fsu.edu/~zwang/cda3101.html) - By Florida State University.
 - [Debugging & Verifying Programs](https://www.cs.utexas.edu/users/hunt/class/2019-spring/cs340d/cs340d.html) - By University of Texas.
 - [Introduction to RISC-V (LFD110x)](https://www.edx.org/learn/computer-programming/the-linux-foundation-introduction-to-risc-v) - Free Linux Foundation course on edX; covers the RISC-V ISA, specifications, and ecosystem; ideal starting point for students.
 - [Organization of Digital Computers Laboratory](https://canvas.eee.uci.edu/courses/7673/assignments/syllabus) - By UC Irvine.
-- [RISC-V ISA using Chisel](https://pages.cs.wisc.edu/~karu/courses/cs752/fall2016/wiki/index.php?n=Main.Project) - By University of Wisconsin–Madison.
 
 ### Research Papers and Publications
 
@@ -252,7 +244,6 @@ Resources to help you make your own designs.
 - [Gemmini: An Agile Systolic Array Generator Enabling Systematic Evaluations of Deep-Learning Architectures](https://people.eecs.berkeley.edu/~alonamid/papers/gemmini-arxiv-1911.09925.pdf) - Paper on the Gemmini systolic array generator integrated with the Rocket/BOOM RISC-V ecosystem.
 - [GhostRider: A Hardware-Software System for Memory Trace Oblivious Computation](https://dl.acm.org/doi/10.1145/2775054.2694385) - ASPLOS 2015 paper on oblivious RAM computation using custom hardware.
 - [Hardware/Software Codesign for Mobile Speech Recognition](https://www.isca-speech.org/archive/archive_papers/interspeech_2013/i13_0627.pdf) - Interspeech 2013 paper on co-designed ASR acceleration for mobile devices.
-- [Implementing a TLB Generator with Chisel for RISC-V Architecture](https://artemis.cslab.ece.ntua.gr:8080/jspui/bitstream/123456789/17459/3/NCPPD_Diploma_Thesis.pdf) - Diploma thesis on generating TLB microarchitectures in Chisel for RISC-V.
 - [MALOC: A Fully Pipelined FPGA Accelerator for Convolutional Neural Networks With All Layers Mapped on Chip](https://ieeexplore.ieee.org/document/8412552) - IEEE paper on a fully pipelined FPGA CNN accelerator with on-chip mapping.
 - [Minimizing Computation in Convolutional Neural Networks](https://link.springer.com/chapter/10.1007/978-3-319-11179-7_36) - Paper presenting techniques to reduce computation in CNN inference.
 - [Nested-Parallelism PageRank on RISC-V Vector Multi-Processors](https://people.eecs.berkeley.edu/~alonamid/papers/carrv2019-nested_pagerank_hwacha.pdf) - CARRV 2019 paper on nested-parallel PageRank on the Hwacha RISC-V vector unit.
@@ -295,7 +286,6 @@ Resources to help you make your own designs.
 - [How I built a RISC-V CPU Core in a span of 5 days](https://github.com/iamrk-vlsi/RISC-V-MYTH-Workshop) - Workshop repository documenting a hands-on RISC-V TL-Verilog CPU build in five days.
 - [Intensivate's Learning Journey for Chisel](https://github.com/Intensivate/learning-journey/wiki) - Community wiki documenting a structured learning path for Chisel hardware design.
 - [Notes for Rocket-Chip](https://github.com/cnrv/rocket-chip-read) - Annotated reading notes on the Rocket Chip generator source code.
-- [Open SoC Fabric](https://www.opensocfabric.org/home.php) - Open-source on-chip network fabric for SoC interconnects.
 - [Ripes Wiki](https://github.com/mortbopet/Ripes/wiki/Ripes-Introduction) - Official wiki and introduction for the Ripes RISC-V visual simulator.
 - [RISC-V on Debian](https://wiki.debian.org/RISC-V) - Debian wiki page on RISC-V port status and build instructions.
 - [RISC-V Notes](https://github.com/cnrv/riscv-notes) - Community-maintained collection of notes, links, and learning resources for RISC-V.
@@ -331,8 +321,6 @@ These social media profiles will update about recent RISC-V related news.
 ### Telegram
 
 - [RISC-V](https://t.me/riscv) - Telegram group for real-time RISC-V community chat.
-
-## Contribute
 
 This list grows with the community. Whether you've found a new open-source core, a great course, or a tool that made your RISC-V workflow significantly better, your contribution is welcome here.
 
