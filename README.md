@@ -2,19 +2,16 @@
 
 > RISC-V is a popular architecture for microcontrollers and embedded systems.
 
----
-
 ## Contents
 
 - [Open Source Implementations](#open-source-implementations)
+  - [Accelerators](#accelerators)
   - [Cores](#cores)
   - [SoCs](#socs)
-  - [Uncategorized](#uncategorized)
 - [Open Source Toolchains](#open-source-toolchains)
   - [Design Environment](#design-environment)
   - [HDLs](#hdls)
   - [Simulators/Emulators](#simulatorsemulators)
-  - [Uncategorized](#uncategorized-1)
   - [Verification and Testing Environment](#verification-and-testing-environment)
 - [Hardware](#hardware)
   - [Educational Boards](#educational-boards)
@@ -22,8 +19,9 @@
   - [Articles](#articles)
   - [Books](#books)
   - [Courses](#courses)
-  - [Research Papers and Publications](#research-papers-and-publications)
-  - [Uncategorized](#uncategorized-2)
+  - [Documentation](#documentation)
+  - [Papers and Publications](#papers-and-publications)
+  - [Tutorials](#tutorials)
   - [Videos](#videos)
 - [Social Media](#social-media)
   - [Forums](#forums)
@@ -33,15 +31,20 @@
 
 ## Open Source Implementations
 
-A curated list of awesome RISC-V open source implementations which will inspire you to make yours.
+Open source implementations of the RISC-V architecture.
+
+### Accelerators
+
+- [DANA](https://github.com/bu-icsg/dana) - Dynamically Allocated Neural Network (DANA) Accelerator.
 
 ### Cores
 
-A curated list of RISC-V Cores, available as open source with proper documentations.
+Open source RISC-V cores with proper documentation.
 
 - [bigPULP](https://github.com/pulp-platform/bigpulp) - Big version of the PULP platform with large cluster configurations for HPC workloads.
 - [biRISC-V](https://github.com/ultraembedded/biriscv) - 32-bit dual-issue in-order RISC-V CPU.
 - [BOOM](https://github.com/riscv-boom/riscv-boom) - Berkeley Out-of-Order RISC-V Processor.
+- [CDL Hardware](https://github.com/atthecodeface/cdl_hardware) - Hardware designs in Cycle Description Language (CDL) targeting RISC-V.
 - [CV32E40P](https://github.com/openhwgroup/cv32e40p) - OpenHW Group CORE-V CV32E40P RISC-V IP.
 - [CVA6](https://github.com/openhwgroup/cva6) - 6-stage, single-issue in-order RISC-V core maintained by the OpenHW Group.
 - [DarkRISCV](https://github.com/darklife/darkriscv) - Experimental RISC-V implementation in Verilog, fitting in a small FPGA.
@@ -112,20 +115,16 @@ A curated list of RISC-V SoCs, available as open sources.
 - [Riscy SoC](https://github.com/AleksandarKostovic/Riscy-SoC) - RISC-V SoC implementation targeting Xilinx FPGAs.
 - [Shakti SoC](https://gitlab.com/shaktiproject/cores/shakti-soc) - Complete SoC built around the Shakti RISC-V processor family from IIT Madras.
 
-### Uncategorized
-
-- [CDL Hardware](https://github.com/atthecodeface/cdl_hardware) - Hardware designs in Cycle Description Language (CDL) targeting RISC-V.
-- [DANA](https://github.com/bu-icsg/dana) - Dynamically Allocated Neural Network (DANA) Accelerator.
-- [RISCV-FS](https://github.com/mrLSD/riscv-fs) - RISC-V formal ISA Specification.
-
 ## Open Source Toolchains
 
-A curated list of open source toolchains which will help you make your own design.
+Open source toolchains for designing and developing RISC-V systems.
 
 ### Design Environment
 
+- [BRSIC-V](https://ascslab.org/research/briscv/explorer/explorer.html) - Browser-based RISC-V architecture design space exploration tool from Boston University.
 - [Chipyard](https://github.com/ucb-bar/chipyard) - Framework for agile development of Chisel-based systems-on-chip.
 - [Firrtl](https://github.com/freechipsproject/firrtl) - Flexible Internal Representation for RTL.
+- [FTPVL](https://github.com/TypingKoala/FPGA-Tool-Performance-Visualization-Library) - FPGA Tool Performance Visualization Library.
 - [LowRISC Chip](https://github.com/lowRISC/lowrisc-chip) - lowRISC SoC platform built on the Rocket RISC-V core.
 - [nextpnr](https://github.com/YosysHQ/nextpnr) - Portable FPGA place and route tool.
 - [PULPino](https://github.com/pulp-platform/pulpino) - Single-core microcontroller system, based on 32-bit RISC-V cores.
@@ -137,10 +136,11 @@ A curated list of open source toolchains which will help you make your own desig
 ### HDLs
 
 - [CHISEL](https://github.com/freechipsproject/chisel3) - Hardware Design Language that facilitates advanced circuit generation and design reuse in Scala.
+- [Chisel/FIRRTL Hardware Compiler Framework](https://www.chisel-lang.org/) - Official website for the Chisel HDL and FIRRTL compiler framework.
 
 ### Simulators/Emulators
 
-A curated list of open source Emulators/Simulators to design and test your RISC-V related work.
+Open source Emulators and Simulators for designing and testing RISC-V systems.
 
 - [Dromajo](https://github.com/chipsalliance/dromajo) - Esperanto Technology's RISC-V Reference Model.
 - [FireSim](https://github.com/firesim/firesim) - Easy-to-use, Scalable, FPGA-accelerated Cycle-accurate Hardware Simulation.
@@ -160,10 +160,6 @@ A curated list of open source Emulators/Simulators to design and test your RISC-
 - [TLBSim](https://github.com/nbdd0121/TLBSim) - Fast TLB simulator for RISC-V systems.
 - [Venus](https://venus.cs61c.org/) - Browser-based RV32 assembler and runtime simulator used in UC Berkeley's CS 61C course; ideal for beginners.
 - [Verilator](https://github.com/verilator/verilator) - Fastest Verilog/SystemVerilog simulator.
-
-### Uncategorized
-
-- [BRSIC-V](https://ascslab.org/research/briscv/explorer/explorer.html) - Browser-based RISC-V architecture design space exploration tool from Boston University.
 - [WebRISC-V](https://github.com/Mariotti94/WebRISC-V) - Web-based graphical pipelined datapath simulation environment built for the RISC-V.
 
 ### Verification and Testing Environment
@@ -175,6 +171,7 @@ A curated list of open source Emulators/Simulators to design and test your RISC-
 - [RISC-V Formal](https://github.com/SymbioticEDA/riscv-formal) - Open-source formal verification framework for RISC-V processors.
 - [RISC-V Tests](https://github.com/riscv/riscv-tests) - Unit tests for RISC-V processors.
 - [RISC-V Torture](https://github.com/ucb-bar/riscv-torture) - Random torture test generator for RISC-V processors.
+- [UVM](https://github.com/SymbiFlow/uvm) - Universal Verification Methodology (UVM) library for open-source EDA flows.
 
 ## Hardware
 
@@ -194,12 +191,15 @@ Resources to help you make your own designs.
 ### Articles
 
 - [2019 : A year of RISC-V and Open source silicon](https://www.linkedin.com/pulse/2019-year-risc-v-open-source-silicon-olof-kindgren/) - Year-in-review article covering the biggest RISC-V open-source silicon milestones of 2019.
+- [Embedded Linux on RISC-V](https://elinux.org/images/a/ad/Elce_2018_khem_raj_Embedded_Linux-Riscv.pdf) - ELCE 2018 slides on bringing embedded Linux to RISC-V platforms.
 - [Learn with Shakti](https://shakti.org.in/learn_with_shakti/intro.html) - Introductory learning resource for the Shakti RISC-V processor from IIT Madras.
-- [Making a real processor step by step using RISC-V ISA](https://dl.acm.org/doi/10.1145/3210713.3210741) - ACM paper walking through a step-by-step processor implementation using the RISC-V ISA.
-- [Research](https://www.ocf.berkeley.edu/~qmn/research.html) - Page on RISC-V-related work from UC Berkeley.
+
+- [UC Berkeley RISC-V Work](https://www.ocf.berkeley.edu/~qmn/research.html) - Page on RISC-V-related work from UC Berkeley.
 - [RISC-V Bases and Extensions Explained](https://www.cnx-software.com/2019/08/27/risc-v-bases-and-extensions-explained/) - Accessible overview of the RISC-V base ISA and its standard extensions.
 - [RISC-V RV32I assembly with Ripes simulator](https://dantalion.nl/en/risc-v-rv32i-assembly-with-ripes-simulator/) - Tutorial on writing and visualizing RV32I assembly using the Ripes simulator.
-- [Sail](https://www.cl.cam.ac.uk/~pes20/sail/) - Research page for the Sail ISA specification language used to formally describe RISC-V.
+- [RISC-V Notes](https://github.com/cnrv/riscv-notes) - Community-maintained collection of notes, links, and learning resources for RISC-V.
+- [RISC-V on Debian](https://wiki.debian.org/RISC-V) - Debian wiki page on RISC-V port status and build instructions.
+- [Sail](https://www.cl.cam.ac.uk/~pes20/sail/) - Page for the Sail ISA specification language used to formally describe RISC-V.
 
 ### Books
 
@@ -216,7 +216,14 @@ Resources to help you make your own designs.
 - [Introduction to RISC-V (LFD110x)](https://www.edx.org/learn/computer-programming/the-linux-foundation-introduction-to-risc-v) - Free Linux Foundation course on edX; covers the RISC-V ISA, specifications, and ecosystem; ideal starting point for students.
 - [Organization of Digital Computers Laboratory](https://canvas.eee.uci.edu/courses/7673/assignments/syllabus) - By UC Irvine.
 
-### Research Papers and Publications
+### Documentation
+
+- [Chipyard Docs](https://chipyard.readthedocs.io/en/latest/) - Official documentation for the Chipyard SoC design framework.
+- [CHISEL Cheatsheet](https://github.com/freechipsproject/chisel-cheatsheet) - Quick-reference cheatsheet for the Chisel hardware design language.
+- [Ripes Wiki](https://github.com/mortbopet/Ripes/wiki/Ripes-Introduction) - Official wiki and introduction for the Ripes RISC-V visual simulator.
+- [RISCV-FS](https://github.com/mrLSD/riscv-fs) - RISC-V formal ISA Specification.
+
+### Papers and Publications
 
 - [A Case for OS-Friendly Hardware Accelerators](https://people.eecs.berkeley.edu/~krste/papers/osaccel-wivosca2013.pdf) - Paper arguing for OS-managed hardware accelerator interfaces.
 - [A Hardware Accelerator for Tracing Garbage Collection](https://ieeexplore.ieee.org/document/8416824) - IEEE paper on custom hardware support for garbage collection in managed-runtime environments.
@@ -226,7 +233,7 @@ Resources to help you make your own designs.
 - [Accelerating Deep Convolutional Neural Networks Using Specialized Hardware](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/CNN20Whitepaper.pdf) - Microsoft Research whitepaper on dedicated CNN hardware acceleration.
 - [AI Requires Many Approaches](https://www.linleygroup.com/uploads/intel-ai-white-paper-final.pdf) - Linley Group whitepaper on diverse hardware strategies for AI inference.
 - [An Agile Approach to Building RISC-V Microprocessors](https://ieeexplore.ieee.org/document/7436635) - IEEE paper on agile hardware development methodology applied to RISC-V.
-- [An Efficient Instruction Fetch Architecture for a RISC-V Soft Processor on an FPGA](https://dl.acm.org/doi/10.1145/3337801.3337803) - ACM paper on optimizing instruction fetch stages in FPGA-based RISC-V cores.
+
 - [Ara: A 1 GHz+ Scalable and Energy-Efficient RISC-V Vector Processor with Multi-Precision Floating Point Support in 22 nm FD-SOI](https://arxiv.org/abs/1906.00478) - ArXiv paper on the high-performance Ara vector unit for RISC-V.
 - [BOOM v2: an open-source out-of-order RISC-V core](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2017/EECS-2017-157.pdf) - UC Berkeley technical report on the second-generation BOOM processor.
 - [BRISC-V: An Open-Source Architecture Design Space Exploration Toolbox](https://arxiv.org/abs/1908.09992) - ArXiv paper describing the BRISC-V design-space exploration framework.
@@ -234,7 +241,7 @@ Resources to help you make your own designs.
 - [Chipyard - An Integrated SoC Research and Implementation Environment](https://ieeexplore.ieee.org/document/9218756) - IEEE paper presenting the Chipyard SoC development framework.
 - [Chipyard: Integrated Design, Simulation, and Implementation Framework for Custom SoCs](https://ieeexplore.ieee.org/document/9099108) - IEEE Micro article on agile SoC construction using Chipyard.
 - [Design and Implementation of CNN Custom Processor Based on RISC-V Architecture](https://ieeexplore.ieee.org/document/8855445) - IEEE paper on a RISC-V custom processor extension for CNN inference.
-- [Design and programming of a coprocessor for a RISC-V architecture](https://www.semanticscholar.org/paper/Design-and-programming-of-a-coprocessor-for-a-Panades/5734383c1b4e585d6c9df090875c715c66d0ad30) - Paper on designing and programming a RISC-V coprocessor for specialized computation.
+
 - [Design of the RISC-V Instruction Set Architecture](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-1.pdf) - Andrew Waterman's PhD dissertation on the design philosophy of the RISC-V ISA.
 - [DianNao: A Small-Footprint High-Throughput Accelerator for Ubiquitous Machine-Learning](https://users.cs.duke.edu/~lkw34/papers/diannao-asplos2014.pdf) - ASPLOS 2014 paper on the influential DianNao neural network accelerator.
 - [FirePerf: FPGA-Accelerated Full-System Hardware/Software Performance Profiling and Co-Design](https://people.eecs.berkeley.edu/~alonamid/papers/asplos2020-fireperf.pdf) - ASPLOS 2020 paper on co-design profiling using FPGA simulation.
@@ -242,7 +249,7 @@ Resources to help you make your own designs.
 - [FPGA-accelerated machine learning inference as a service for particle physics computing](https://arxiv.org/abs/1904.08986) - ArXiv paper on using FPGAs for ML inference in particle physics pipelines.
 - [GAP-8: A RISC-V SoC for AI at the Edge of the IoT](https://ieeexplore.ieee.org/document/8445101) - IEEE paper on the GAP-8 multi-core RISC-V SoC for edge AI inference.
 - [Gemmini: An Agile Systolic Array Generator Enabling Systematic Evaluations of Deep-Learning Architectures](https://people.eecs.berkeley.edu/~alonamid/papers/gemmini-arxiv-1911.09925.pdf) - Paper on the Gemmini systolic array generator integrated with the Rocket/BOOM RISC-V ecosystem.
-- [GhostRider: A Hardware-Software System for Memory Trace Oblivious Computation](https://dl.acm.org/doi/10.1145/2775054.2694385) - ASPLOS 2015 paper on oblivious RAM computation using custom hardware.
+
 - [Hardware/Software Codesign for Mobile Speech Recognition](https://www.isca-speech.org/archive/archive_papers/interspeech_2013/i13_0627.pdf) - Interspeech 2013 paper on co-designed ASR acceleration for mobile devices.
 - [MALOC: A Fully Pipelined FPGA Accelerator for Convolutional Neural Networks With All Layers Mapped on Chip](https://ieeexplore.ieee.org/document/8412552) - IEEE paper on a fully pipelined FPGA CNN accelerator with on-chip mapping.
 - [Minimizing Computation in Convolutional Neural Networks](https://link.springer.com/chapter/10.1007/978-3-319-11179-7_36) - Paper presenting techniques to reduce computation in CNN inference.
@@ -273,23 +280,14 @@ Resources to help you make your own designs.
 - [Using FireSim to Enable Agile End-to-End RISC-V Computer Architecture Research](https://people.eecs.berkeley.edu/~alonamid/papers/carrv2019-firesim_agile.pdf) - CARRV 2019 paper on using FireSim for end-to-end RISC-V research workflows.
 - [Variable Precision Floating-Point RISC-V Coprocessor Evaluation using Lightweight Software and Compiler Support](https://www.researchgate.net/publication/336778311_Variable_Precision_Floating-Point_RISC-V_Coprocessor_Evaluation_using_Lightweight_Software_and_Compiler_Support) - Paper evaluating variable-precision FP coprocessor designs for RISC-V with compiler integration.
 
-### Uncategorized
+### Tutorials
 
 - [Advanced Examples of Using Chisel](https://github.com/librecores/riscv-sodor/wiki/Advanced-Examples-of-Using-Chisel) - Wiki page with advanced Chisel hardware design examples using the Sodor RISC-V cores.
-- [Chipyard Docs](https://chipyard.readthedocs.io/en/latest/) - Official documentation for the Chipyard SoC design framework.
 - [CHISEL Bootcamp](https://github.com/freechipsproject/chisel-bootcamp) - Interactive Jupyter-notebook-based bootcamp for learning Chisel hardware design.
-- [CHISEL Cheatsheet](https://github.com/freechipsproject/chisel-cheatsheet) - Quick-reference cheatsheet for the Chisel hardware design language.
-- [Chisel/FIRRTL Hardware Compiler Framework](https://www.chisel-lang.org/) - Official website for the Chisel HDL and FIRRTL compiler framework.
 - [Cookbook](https://github.com/freechipsproject/chisel3/wiki/Cookbook) - Community-contributed Chisel patterns and solutions wiki.
-- [Embedded Linux on RISC-V](https://elinux.org/images/a/ad/Elce_2018_khem_raj_Embedded_Linux-Riscv.pdf) - ELCE 2018 slides on bringing embedded Linux to RISC-V platforms.
-- [FTPVL](https://github.com/TypingKoala/FPGA-Tool-Performance-Visualization-Library) - FPGA Tool Performance Visualization Library.
 - [How I built a RISC-V CPU Core in a span of 5 days](https://github.com/iamrk-vlsi/RISC-V-MYTH-Workshop) - Workshop repository documenting a hands-on RISC-V TL-Verilog CPU build in five days.
 - [Intensivate's Learning Journey for Chisel](https://github.com/Intensivate/learning-journey/wiki) - Community wiki documenting a structured learning path for Chisel hardware design.
 - [Notes for Rocket-Chip](https://github.com/cnrv/rocket-chip-read) - Annotated reading notes on the Rocket Chip generator source code.
-- [Ripes Wiki](https://github.com/mortbopet/Ripes/wiki/Ripes-Introduction) - Official wiki and introduction for the Ripes RISC-V visual simulator.
-- [RISC-V on Debian](https://wiki.debian.org/RISC-V) - Debian wiki page on RISC-V port status and build instructions.
-- [RISC-V Notes](https://github.com/cnrv/riscv-notes) - Community-maintained collection of notes, links, and learning resources for RISC-V.
-- [UVM](https://github.com/SymbiFlow/uvm) - Universal Verification Methodology (UVM) library for open-source EDA flows.
 
 ### Videos
 
