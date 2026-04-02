@@ -324,4 +324,4 @@ This list grows with the community. Whether you've found a new open-source core,
 
 Please read the **[Contribution Guidelines](Contributing.md)** before opening a pull request. We follow the sindresorhus/awesome standard: every entry must have a description, a live `https://` link, and be actively maintained.
 
-> Found a dead link or an outdated resource? Open an issue on GitHub — that's a contribution too! ✨
+> Found a dead link or an outdated resource? Open an issue on GitHub — that's a contribution too!
