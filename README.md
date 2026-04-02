@@ -274,11 +274,9 @@ Resources to help you make your own designs.
 - [The Rocket Chip Generator](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-17.pdf) - UC Berkeley technical report on the parameterizable Rocket Chip SoC generator.
 - [TIMBER-V: Tag-Isolated Memory Bringing Fine-grained Enclaves to RISC-V](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_10-3_Weiser_paper.pdf) - NDSS 2019 paper on tag-based memory isolation for RISC-V secure enclaves.
 - [Towards a High-Performance RISC-V Emulator](https://www.researchgate.net/publication/328314631_Towards_a_High-Performance_RISC-V_Emulator) - Paper exploring micro-optimization techniques for RISC-V software emulation.
-- [Towards Deep Learning using TensorFlow Lite on RISC-V](https://www.researchgate.net/publication/339298701_Towards_Deep_Learning_using_TensorFlow_Lite_on_RISC-V) - Paper on porting TensorFlow Lite to run on RISC-V embedded platforms.
 - [Towards General-Purpose Neural Network Computing](https://ieeexplore.ieee.org/document/7429298) - IEEE paper on domain-specific neural network acceleration.
 - [Tuning Algorithms and Generators for Efficient Edge Inference](https://arxiv.org/abs/1908.02239) - ArXiv paper on algorithm-level tuning for resource-efficient neural network inference.
 - [Using FireSim to Enable Agile End-to-End RISC-V Computer Architecture Research](https://people.eecs.berkeley.edu/~alonamid/papers/carrv2019-firesim_agile.pdf) - CARRV 2019 paper on using FireSim for end-to-end RISC-V research workflows.
-- [Variable Precision Floating-Point RISC-V Coprocessor Evaluation using Lightweight Software and Compiler Support](https://www.researchgate.net/publication/336778311_Variable_Precision_Floating-Point_RISC-V_Coprocessor_Evaluation_using_Lightweight_Software_and_Compiler_Support) - Paper evaluating variable-precision FP coprocessor designs for RISC-V with compiler integration.
 
 ### Tutorials
 
